@@ -4,7 +4,7 @@ const Container = styled.section`
     
     margin: 0 auto;
     padding: 0 1rem;
-    max-width: 480px;
+    max-width: 450px;
 
     @media (min-width: 576px){
         max-width: 540px

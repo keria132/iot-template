@@ -6,6 +6,7 @@ const RelaysBlock = styled.div`
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-between;
+    gap: 1.5rem;
 
     h2{
         width: 100%;
@@ -18,7 +19,7 @@ const RelaysBlock = styled.div`
         margin: 0 0 2% 0%;
         width: 30%;
         height: 4px;
-        background-color: #3f88c5;
+        background-color: rgba(255, 255, 255, 0.5);
         border-radius: 5px;
         transition: 1s;
     }
@@ -35,8 +36,9 @@ const DeviceBlock = styled.div`
     //border: 1px solid #97d2fb;
     border-radius: 10px;
     padding: 0 1rem 1rem 1rem;
-    margin: 1rem 0 1rem 0;
+    //margin: 1rem 0 1rem 0;
     box-shadow: 0px 0px 2px 0px #97d2fb;
+    width: 40%
 `
 
 const Label = styled.label`
